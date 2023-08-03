@@ -13,6 +13,25 @@ console.log(divEl.nodeName + ' (before)', divEl.cloneNode(true));
 
 // --- write some code ---
 //  you want to create a 2x2 table with a, b, c, d in the squares
+const tbodyEl = divEl.querySelector('tbody');
+const rows = tbodyEl.querySelectorAll('tr');
+
+const td11 = document.createElement('td');
+td11.innerText = 'a';
+
+const td12 = document.createElement('td');
+td12.innerText = 'b';
+
+const td21 = document.createElement('td');
+td21.innerText = 'c';
+
+const td22 = document.createElement('td');
+td22.innerText = 'd';
+
+rows[0].appendChild(td11);
+rows[0].appendChild(td12);
+rows[1].appendChild(td21);
+rows[1].appendChild(td22);
 
 // --- --- --- --- --- ---
 

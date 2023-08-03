@@ -10,6 +10,12 @@ ulEl.innerHTML = `
 console.log(ulEl.nodeName + ' (before)', ulEl.cloneNode(true));
 
 // --- write some code ---
+ulEl.querySelectorAll('li')[0].innerText = 'toad';
+const liEl = document.createElement('li');
+liEl.innerText = 'frog';
+ulEl.replaceChild(liEl, ulEl.querySelector('p'));
+ulEl.removeChild(ulEl.querySelectorAll('li')[3]);
+console.log(ulEl)
 
 // --- --- --- --- --- ---
 

@@ -43,9 +43,27 @@
 
         <script id="dom-manipulation-script">
           'use strict';
-          debugger;
+          //debugger;
 
           // write me! (... without using cloneNode, that's kind of cheating)
+          const h1 = document.createElement("h1");
+          const actualDiv = document.querySelector("#actual");
+          actualDiv.prepend(h1);
+          h1.innerText = "a list of things";
+         
+          const ol = document.querySelector("#actual ol");
+          actualDiv.removeChild(ol);
+          const ul = document.createElement("ul");
+          actualDiv.append(ul);
+          const li1 =  document.createElement("li");
+          li1.innerText = "robots";
+          ul.append(li1);
+          const li2 =  document.createElement("li");
+          li2.innerText = "solar systems";
+          ul.append(li2);
+          const li3 =  document.createElement("li");
+          li3.innerText = "oil";
+          ul.append(li3);
         </script>
       </div>
 
