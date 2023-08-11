@@ -8,7 +8,7 @@ import {
 import { state } from '../../data/state.js';
 
 export const initialize = () => {
-  debugger;
+  // debugger;
 
   // render initial uiElement
   const detailsEl = document.getElementById(CONTAINER_ID);

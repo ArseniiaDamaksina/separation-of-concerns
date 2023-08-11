@@ -3,7 +3,7 @@ import { CONTAINER_ID, TOGGLE_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const openCloseHandler = () => {
-  debugger;
+  // debugger;
   // read user input
   const newIsOpen = document.getElementById(TOGGLE_ID).checked;
 

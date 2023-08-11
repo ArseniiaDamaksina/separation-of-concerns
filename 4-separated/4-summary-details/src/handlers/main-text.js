@@ -5,7 +5,7 @@ import { state } from '../../data/state.js';
 import { infoElement } from '../components/info-element.js';
 
 export const mainTextHandler = () => {
-  debugger;
+  // debugger;
   // read user input
   const newMainText = document.getElementById(MAIN_ID).value;
 

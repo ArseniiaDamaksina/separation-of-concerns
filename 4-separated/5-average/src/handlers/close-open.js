@@ -12,7 +12,7 @@ import { state } from '../../data/state.js';
 import { addListener } from '../listeners/add.js';
 
 export const closeOpenHandler = () => {
-  debugger;
+  // debugger;
 
   // update numbers
   state.closed = !state.closed;

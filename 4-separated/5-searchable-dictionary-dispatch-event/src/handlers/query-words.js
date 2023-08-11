@@ -3,7 +3,7 @@ import { OUTPUT_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const queryWords = (event) => {
-  debugger;
+  // debugger;
   // read user input
   const newQuery = event.target.value;
 

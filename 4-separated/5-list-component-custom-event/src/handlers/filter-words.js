@@ -3,7 +3,7 @@ import { state } from '../../data/state.js';
 import { wordsList } from '../components/words-list.js';
 
 export const filterHandler = () => {
-  debugger;
+  // debugger;
   // read user input
   const newQuery = document.getElementById('query-field').value;
 

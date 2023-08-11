@@ -5,7 +5,7 @@ import { state } from '../../data/state.js';
 import { infoElement } from '../components/info-element.js';
 
 export const openCloseHandler = () => {
-  debugger;
+  // debugger;
   // read user input
   const newIsOpen = document.getElementById(TOGGLE_ID).checked;
 

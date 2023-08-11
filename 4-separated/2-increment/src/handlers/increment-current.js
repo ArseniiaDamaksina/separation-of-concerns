@@ -3,7 +3,7 @@ import { CURRENT_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const incrementCurrent = (event) => {
-  debugger;
+  // debugger;
   const action = event.target.id;
 
   // update state

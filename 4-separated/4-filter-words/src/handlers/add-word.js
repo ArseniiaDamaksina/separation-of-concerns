@@ -5,7 +5,7 @@ import { state } from '../../data/state.js';
 import { wordList } from '../components/word-list.js';
 
 export const addHandler = () => {
-  debugger;
+  //debugger;
   // read user input
   const newWord = document.getElementById(WORD_ID).value;
 

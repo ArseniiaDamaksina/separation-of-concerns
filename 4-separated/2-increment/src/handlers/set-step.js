@@ -1,7 +1,7 @@
 import { state } from '../../data/state.js';
 
 export const setStep = (event) => {
-  debugger;
+  //debugger;
 
   // read user input
   const newStepInput = event.target.value;

@@ -13,7 +13,7 @@ import { openClose } from './listeners/open-close.js';
 import { summaryText } from './listeners/summary-text.js';
 
 // this file is the program's Entry Point
-debugger;
+// debugger;
 
 load(document);
 

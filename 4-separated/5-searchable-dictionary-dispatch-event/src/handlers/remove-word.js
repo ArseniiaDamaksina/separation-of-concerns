@@ -8,7 +8,7 @@ import {
 import { state } from '../../data/state.js';
 
 export const removeWord = () => {
-  debugger;
+  // debugger;
   // read user input
   const toRemove = document.getElementById(INPUT_ID).value;
 

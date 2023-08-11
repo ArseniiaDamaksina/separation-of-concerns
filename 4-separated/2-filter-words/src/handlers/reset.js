@@ -2,7 +2,7 @@ import { FILTERED_ID, QUERY_ID, WORD_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const resetHandler = () => {
-  debugger;
+  // debugger;
 
   // update state
   state.query = '';

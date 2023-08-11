@@ -3,7 +3,7 @@ import { CONTAINER_ID, MAIN_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const mainTextHandler = () => {
-  debugger;
+  // debugger;
   // read user input
   const newMainText = document.getElementById(MAIN_ID).value;
 

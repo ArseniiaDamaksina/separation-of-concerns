@@ -3,7 +3,7 @@ import { NUMBER_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const upHandler = () => {
-  debugger;
+  // debugger;
   // update state
   state.past.push(state.current);
   state.current += 1;

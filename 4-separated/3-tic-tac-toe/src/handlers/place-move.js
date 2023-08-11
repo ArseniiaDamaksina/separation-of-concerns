@@ -1,8 +1,9 @@
 import { state } from '../../data/state.js';
 import { determineWinner } from '../utils/determine-winner.js';
+import { resetGame } from '../handlers/reset-game.js';
 
 export const placeMove = (event) => {
-  debugger;
+  // debugger;
   // read & process user input
   const index = event.target.id;
 
@@ -27,6 +28,10 @@ export const placeMove = (event) => {
   event.target.innerHTML = state.board[index];
 
   // // a challenge, make this game detect if there is a winner
-  // const winner = determineWinner(board);
-  // ...
+  const winner = determineWinner(state.board);
+  if (winner) {
+    alert(`Player ${winner} wins!`);
+    resetGame();
+    return;
+  }
 };

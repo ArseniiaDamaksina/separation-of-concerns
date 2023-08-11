@@ -3,7 +3,7 @@ import { COORDINATES_ID } from '../../data/constants.js';
 import { format } from '../utils/format.js';
 
 export const updateCoordinates = (event) => {
-  debugger; // entry point for each interaction
+  // debugger; // entry point for each interaction
 
   // read user input from event
   const xValue = event.pageX;

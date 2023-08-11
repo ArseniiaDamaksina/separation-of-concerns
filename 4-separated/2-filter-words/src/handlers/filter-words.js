@@ -2,7 +2,7 @@ import { FILTERED_ID, QUERY_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const filterHandler = () => {
-  debugger;
+  // debugger;
   // read user input
   const newQuery = document.getElementById(QUERY_ID).value;
 

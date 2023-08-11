@@ -8,7 +8,7 @@ import {
 import { state } from '../../data/state.js';
 
 export const addWord = () => {
-  debugger;
+  // debugger;
   // read user input
   const newWord = document.getElementById(INPUT_ID).value;
 

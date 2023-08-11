@@ -5,7 +5,7 @@ import { state } from '../../data/state.js';
 import { wordList } from '../components/word-list.js';
 
 export const filterHandler = () => {
-  debugger;
+  //debugger;
   // read user input
   const newQuery = document.getElementById(QUERY_ID).value;
 

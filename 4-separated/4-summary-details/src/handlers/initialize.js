@@ -10,7 +10,7 @@ import { state } from '../../data/state.js';
 import { infoElement } from '../components/info-element.js';
 
 export const initialize = () => {
-  debugger;
+  // debugger;
 
   // render initial uiElement
   const renderedState = infoElement(state);

@@ -10,7 +10,7 @@ import { state } from '../../data/state.js';
 import { addNumberHandler } from './add.js';
 
 export const resetNumbersHandler = () => {
-  debugger;
+  // debugger;
 
   // update numbers
   state.validNumbers = [];

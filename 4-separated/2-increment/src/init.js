@@ -6,7 +6,7 @@ import { resetListener } from './listeners/reset.js';
 import { setStepListener } from './listeners/set-step.js';
 
 // this file is the program's Entry Point
-debugger;
+// debugger;
 
 appLoad(document);
 

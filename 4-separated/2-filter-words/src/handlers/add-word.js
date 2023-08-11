@@ -3,7 +3,7 @@ import { FILTERED_ID, WORD_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const addHandler = () => {
-  debugger;
+  //debugger;
   // read user input
   const newWord = document.getElementById(WORD_ID).value;
 

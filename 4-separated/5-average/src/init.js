@@ -6,7 +6,7 @@ import { closeOpenListener } from './listeners/close-open.js';
 import { resetListener } from './listeners/reset.js';
 
 // this file is the program's Entry Point
-debugger;
+// debugger;
 
 // set app listeners
 

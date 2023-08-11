@@ -3,7 +3,7 @@ import { state } from '../../data/state.js';
 import { wordsList } from '../components/words-list.js';
 
 export const resetHandler = () => {
-  debugger;
+  // debugger;
 
   // update state
   state.query = '';

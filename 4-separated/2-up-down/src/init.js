@@ -6,7 +6,7 @@ import { down } from './listeners/down.js';
 import { reset } from './listeners/reset.js';
 
 // this file is the program's Entry Point
-debugger;
+// debugger;
 
 load(document);
 

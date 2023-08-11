@@ -1,7 +1,7 @@
 import { state } from '../../data/state.js';
 
 export const resetGame = () => {
-  debugger;
+  // debugger;
   // update state
   state.board = [null, null, null, null, null, null, null, null, null];
   state.players = {

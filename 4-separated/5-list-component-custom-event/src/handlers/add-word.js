@@ -3,7 +3,7 @@ import { state } from '../../data/state.js';
 import { wordsList } from '../components/words-list.js';
 
 export const addHandler = () => {
-  debugger;
+  // debugger;
   // read user input
   const newWord = document.getElementById('word').value;
 

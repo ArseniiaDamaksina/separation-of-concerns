@@ -5,7 +5,7 @@ import { filterWordsListener } from './listeners/filter-words.js';
 import { resetListener } from './listeners/reset.js';
 
 // this file is the program's Entry Point
-debugger;
+//debugger;
 
 // attach event listeners
 addWordListener(document.getElementById(ADD_ID));

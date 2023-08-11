@@ -3,7 +3,7 @@ import { CONTAINER_ID, SUMMARY_ID } from '../../data/constants.js';
 import { state } from '../../data/state.js';
 
 export const summaryTextHandler = () => {
-  debugger;
+  // debugger;
   // read user input
   const newSummaryText = document.getElementById(SUMMARY_ID).value;
 
